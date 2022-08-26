@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <title>Drinks order</title>
+        <link rel="stylesheet" href="msosi.css" >
+    </head>
+    <div id="order">
+        <h3>MSOSI HOTEL</h3>
+        <img id="logo" src="hot_logo.png" alt="LOGO"><br>
+        <fieldset>
+            <legend><b>Weka order</b></legend>
+            <form action="">
+                <label>Jina(name): <input type="text" name="name" maxlength="10" placeholder="Andika jina lako" required></label><br><br>
+                <label>Email: <input type="email" name="email" placeholder="example@gmail.com" required></label><br><br>
+                <label>Postcode: <input type="text" name="postcode" minlength="5" maxlength="5" placeholder="00000" required></label><br><br>
+                <label>Simu(Mob no): <input type="number" name="tel" placeholder="075XXXXXX" required></label><br></br>
+                <label>
+                    Mtaa(street): <select name="street">
+                        <option>NaneNane</option>
+                        <option>Msamvu</option>
+                        <option>Masika</option>
+                        <option>Jordan</option>
+                        <option>Bigwa</option>
+                    </select>
+                </label><br><br>
+                <label>
+                    Chagua(Drinks): 
+                    <select name="food">
+                        <option>Cocacola</option>
+                        <option>Fanta</option>
+                        <option>Mirinda</option>
+                        <option>Pepsi</option>
+                        <option>Kingfisher</option>
+                        <option>Heineken</option>
+                    </select>
+                </label><br><br>
+                <label>Muda(Time): <input type="time" name="time" required></label>
+                <p><input type="submit" name="Submit" id="sub">   <input type="reset" id="sub"></p>
+            </form>
+        </fieldset>
+    </div>
+    <p id="btn-center"><button id="zaidi"><a id="z-btn" href="index.html">Back</a></button></p>
+</html>
